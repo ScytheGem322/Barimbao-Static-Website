@@ -9,4 +9,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('Barimbao-Static-Website');
+
+  onGetStarted() {
+    // simple action for demonstration
+    alert('Button clicked!');
+  }
 }
